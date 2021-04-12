@@ -10,7 +10,7 @@ struct arg_nbr{
 };
 
 void *runner(void *arguments){
-	struct arg_nbr *args = arguments;
+	struct arg_nbr *args = arguments; Add files via upload 
 	int a= args -> a;
 	int b =args -> b;
 	int c=0;
